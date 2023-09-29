@@ -163,13 +163,17 @@ ol{
 
 
 .ingredients-section {
-  padding: 20px;
-  background-color: #FFB000;
+  padding: 30px;
   border-radius: 10px 0px 0px 10px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   width: 40%;
+  background: rgba(0,0,0,.7);
+  color: #ffffff;
+}
+.ingredients-section h2 {
+  color: #FFB000;
 }
 .instructions-section {
   padding: 30px;
@@ -227,7 +231,6 @@ ol{
   }
   .ingredients-section{
     border-radius: 20px 20px 0px 0px;
-    background-color: #ffffff;
   }
   .instructions-section{
     border-radius: 0px 0px 20px 20px;
@@ -262,9 +265,7 @@ ol{
   .searchresult {
     padding-left: 30px;
   }
-  body{
-    background-image: none;
-  }
+ 
   #recipes{
     margin-top: 0;
     gap:0;
@@ -283,11 +284,6 @@ ol{
   #recipes a:hover {
     border: 0;
   }
-  #find-recipes, #recipes-list li{
-    background-color: #000;
-  }
-  .ingredients-section{
-    background-color: unset;
-  }
+ 
 }
 
