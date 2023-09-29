@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <figure>
+        <img src="./images/bg-wood.png" alt="Vegetable" draggable="false">
+    </figure>
+    <div class="container">
+        <div>
+            <div>
+                <div id="find-recipes">
+                    <h1><i class="fa-solid fa-plate-wheat"></i> Recipe</h1>
+                    <p>Discover delicious recipes right at your fingertips - simply search here!</p>
+                    <form action="#" method="" id="form">
+                        <input type="text" name="recipe" id="recipe" placeholder="ex. Spaghetti" required="required"/>
+                        <button type="submit" id="search"><i class="fa-solid fa-magnifying-glass"></i> </button>
+                        <span class="loader"></span>
+                    </form>
+                </div>
+                
+                <div class="searchresult"></div>
+                <ul id="recipes-list"></ul>
+                <div id="recipes"></div>
+            </div>
+        </div>
+    </div>
+ 
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://kit.fontawesome.com/392f37ceff.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
